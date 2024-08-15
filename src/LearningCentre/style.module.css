@@ -1,0 +1,223 @@
+.text-white {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.none {
+    display: none;
+}
+
+.subNav {
+    position: absolute;
+    background: #393535;
+    padding: 10px;
+    z-index: 1;
+}
+
+.subNav .item {
+    margin: 10px;
+    color: #ffffff
+}
+
+.subNav .item a {
+    color: #ffffff
+}
+
+.lc_main {
+    overflow: hidden;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.ml50 {
+    margin-left: 50px;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.pc_search {
+    float: right;
+    position: relative;
+    margin-top: 10px
+}
+
+.pc_search input {
+    height: 46px;
+    width: 440px;
+    padding-right: 40px;
+    border: 0;
+    border-radius: 20px;
+    border: 1px solid #dfdfdf;
+    outline: 0;
+    padding-left: 10px
+}
+
+.pc_search .btn {
+    height: 46px;
+    width: 26px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    border: 0;
+    outline: 0;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    background: url('../../public/res/img/seach.png') no-repeat right center;
+    background-size: 30px
+}
+
+.pc_search:hover .btn {
+    background: url('../../public/res/img/seach.png') no-repeat right center;
+    background-size: 30px
+}
+
+.new_list {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.new_list ul li {
+    width: 100%;
+    padding: 15px;
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 10px 1px #ddd
+}
+
+.new_list ul li .fl {
+    width: 30%
+}
+
+.new_list ul li .fl .imgauto {
+    width: 100%;
+    height: 185px
+}
+
+.new_list ul li .fl .imgauto img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.new_list ul li .fr {
+    width: 70%;
+    padding-left: 20px
+}
+
+.new_list ul li .fr span {
+    font-size: 18px;
+    color: #000;
+    display: block;
+    padding-top: 8px
+}
+
+.new_list ul li .fr p {
+    font-size: 14px;
+    color: #888;
+    display: block;
+    margin-top: 10px;
+    line-height: 24px;
+    height: 96px;
+    overflow: hidden
+}
+
+.new_list ul li:hover {
+    box-shadow: 0 1px 10px 1px #0071bf
+}
+
+.new_list ul li:hover .fr span {
+    color: #0071bf
+}
+
+.new_list {
+    width: 99%;
+    margin-top: 8%
+}
+
+.new_list ul li {
+    width: 98%;
+    margin: 10px 1%;
+    padding: 8px
+}
+
+.new_list ul li .fl .imgauto {
+    height: .8rem
+}
+
+.new_list ul li .fl {
+    width: 35%
+}
+
+.new_list ul li .fr {
+    width: 65%;
+    padding-left: 10px
+}
+
+.new_list ul li .fr span {
+    padding-top: 0;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.new_list ul li .fr p {
+    font-size: 13px;
+    line-height: 22px;
+    height: 44px;
+    margin-top: 5px
+}
+
+.new_list ul li .fr .time {
+    margin-top: 5px;
+    font-size: 12px;
+    background-size: 14px;
+    line-height: 22px
+}
+
+.text_r {
+    text-align: right
+}
+
+.text_l {
+    text-align: left
+}
+
+.new_list .content {
+    height: unset;
+    font-size: 16px
+}
+
+.cc_text {
+    height: unset;
+    font-size: 16px;
+}

@@ -1,0 +1,181 @@
+/* StockPrediction.css */
+
+.stock-prediction {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  padding: 10px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+.total-score {
+  font-size: 1em;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  height: calc(100vh - 60px);
+}
+
+.left-panel {
+  width: 25%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border-right: 1px solid #e0e0e0;
+}
+
+.stock-list-container {
+  flex-shrink: 0;
+}
+
+.stock-list {
+  max-height: 50vh;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+
+.stock-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stock-list th, .stock-list td {
+  border: 1px solid #dee2e6;
+  padding: 6px;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.stock-list th {
+  background-color: #f1f1f1;
+}
+
+.show-instructions-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  font-size: 0.8em;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-instructions-btn:hover {
+  background-color: #e9ecef;
+}
+
+.center-panel {
+  flex-grow: 1;
+  width: 50%;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.stock-input {
+  display: flex;
+  gap: 10px;
+}
+
+.stock-input input {
+  font-size: 0.9em;
+  flex-grow: 1;
+}
+
+.stock-input button {
+  font-size: 0.9em;
+}
+
+.chart-container {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.prediction-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.prediction-form select, .prediction-form input, .prediction-form button {
+  font-size: 0.9em;
+  padding: 8px;
+}
+
+.prediction-form select {
+  font-size: 0.9em;
+  padding: 6px;
+  width: auto;
+  max-width: 100px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.right-panel {
+  width: 25%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  overflow-y: auto;
+  border-left: 1px solid #e0e0e0;
+}
+
+.right-panel h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+.news-list {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  font-size: 0.6rem;
+}
+
+
+
+
+
+
+.game-instruction-container {
+  font-size: 0.5em; /* Smaller font size */
+  line-height: 1.4;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-panel, .right-panel {
+    width: 40%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .middle-panel {
+    width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .general-analysis-writeup {
+    position: sticky;
+    top: 20px;
+  }
+  
+  @media (max-width: 1200px) {
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .left-panel, .middle-panel, .right-panel {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }

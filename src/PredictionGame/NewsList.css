@@ -1,0 +1,46 @@
+.news-container {
+  width: 100%;
+  max-height: 600px; /* Adjust as needed for the container's height */
+  
+  padding: 0 1rem; /* Optional: Add padding if needed */
+}
+
+.news-list {
+  width: 100%;
+  max-height: 100%; /* Allow the list to fill the container's height */
+  overflow-y: auto;
+  margin: 0; /* Remove margins to fit the container */
+  font-size: 0.8em;
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.news-item {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+  width: 100%; /* Ensure the item fits the container width */
+}
+
+.news-item h2 {
+  font-size: 0.7em; /* Smaller font size for headings */
+  margin: 0;
+}
+
+.news-item p {
+  margin: 0.2rem 0;
+  font-size: 0.7rem;
+}
+
+.news-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+
+.news-image {
+  max-width: 100%; /* Ensure images do not exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
